@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Sonsie+One);
+@import "http://webfonts.ru/import/montserrat.css";
+/*
+	Montserrat, 400, 700
+*/
+
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover{
+	color: #ae6b59;
+	background-color: #e3c49c;
+
+
+	
+}
+.navbar{
+	margin-bottom:0;
+}
+.container{
+	width:100%;
+}
+
+
+.line-header{
+	background-color: #ae6b59;
+	height:50px;
+	width:100%;
+}
+.navbar-brand{
+	position: relative;
+	left: 50px;
+	top:-60px;
+	
+}
+.navbar-brand img{
+	width: 70%;
+}
+.navbar-custom, .container-custom{
+
+	background-color: #e3c49c;
+}
+.navbar-custom ul {
+	margin-left: 0px;
+}
+
+.nav li a{
+	font-family: 'Sonsie One', cursive;
+	text-transform: uppercase;
+}
+.car-img img{
+	width:100%;
+
+}
+
+
+.row-custom{
+	padding: 10px;
+	background-color: #f2e8e5;
+	color:#52504f;
+	text-align: center;
+	font-family: Montserrat;
+
+}
+.row-custom p{
+	padding-top: 5px;
+	font-family: 'Sonsie One', cursive;
+	color: #474e5d;
+
+}
+.row-custom a{
+
+	text-decoration: none;
+	color: #a86048;
+	font-family: 'Sonsie One', cursive;
+}
+@media (max-width: 768px){
+	.navbar-brand {display: none;}
+	.row-custom-rolls{background: nonecontain;}
+
+}
+.row-custom-rolls{
+	background: #f2e8e5;
+	background-image: url(../img/bgrolls.png);
+	background-repeat: no-repeat;
+	background-position: -460px -100px;
+	-webkit-background-size: auto;
+	background-size: auto;
+	height:600px;
+
+}
+.col-md-custom{
+	width:200px;
+}
+.rolls-text{
+	margin-top: 100px;
+	display: inline-block;
+	color:#52504f;
+	text-align: justify;
+	font-family: Montserrat;
+	width: 300px;
+}
+.rolls-text h2{
+	text-align: center;
+}
+
+.row-custom-slider{
+	
+	padding:50px;
+	background-image: url(../img/bgdark.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+
+
+/* jssor slider bullet navigator skin 03 css */
+        /*
+        .jssorb03 div           (normal)
+        .jssorb03 div:hover     (normal mouseover)
+        .jssorb03 .av           (active)
+        .jssorb03 .av:hover     (active mouseover)
+        .jssorb03 .dn           (mousedown)
+        */
+       /*.jssorb03 {
+            position: absolute;
+        }
+        .jssorb03 div, .jssorb03 div:hover, .jssorb03 .av {
+            position: absolute;
+            /* size of bullet elment */
+           /* width: 21px;
+            height: 21px;
+            text-align: center;
+            line-height: 21px;
+            color: white;
+            font-size: 12px;
+            background: url('../img/b03.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }*/
+        .jssorb03 div { background-position: -5px -4px; }
+        .jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -4px; }
+        .jssorb03 .av { background-position: -65px -4px; }
+        .jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -4px; }
+
+        /* jssor slider arrow navigator skin 03 css */
+        /*
+        .jssora03l                  (normal)
+        .jssora03r                  (normal)
+        .jssora03l:hover            (normal mouseover)
+        .jssora03r:hover            (normal mouseover)
+        .jssora03l.jssora03ldn      (mousedown)
+        .jssora03r.jssora03rdn      (mousedown)
+        */
+        .jssora03l, .jssora03r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 55px;
+            height: 55px;
+            cursor: pointer;
+            background: url('../img/a03.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora03l { background-position: -3px -33px; }
+        .jssora03r { background-position: -63px -33px; }
+        .jssora03l:hover { background-position: -123px -33px; }
+        .jssora03r:hover { background-position: -183px -33px; }
+        .jssora03l.jssora03ldn { background-position: -243px -33px; }
+        .jssora03r.jssora03rdn { background-position: -303px -33px; }
+
+
+#jssor_1 a>img{
+	-webkit-filter: grayscale(1);
+}
+#jssor_1 a>img:hover{
+	-webkit-filter: grayscale(0);
+}
+
+.footer-row{
+	background-image: url(../img/bgfooter.jpg);
+	padding: 30px;
+
+}
+.footer-row h3, .footer-row p{
+	color:#fff;
+	font-family: Montserrat;
+
+
+}
+.footer-row p{
+	text-align: justify;
+	font-size: 10px;
+}
+
+.socials{
+	width: 270px;
+ 
+    padding: 10px;
+
+}
+.social{
+	display: inline-block;
+    width: 30px;
+    height: 30px;
+  
+    vertical-align: middle;
+
+    background: url(../img/social.png) no-repeat;
+
+}
+
+.soc-1{
+	background-position: -50px 0;
+}
+.soc-yt{
+	background-position: -100px 0;
+}
+.soc-vm{
+	background-position: -150px 0;
+}
+.soc-li{
+	background-position: -197px 0;
+}
+
+
+.copyright-row{
+
+	background-color: #92887f;
+	padding:20px;
+	color: #fff;
+	text-align: center;
+}
+
+@media (max-width: 768px){
+	.navbar-brand {display: none;}
+	.row-custom-rolls{
+		background-image: none;}
+	#jssor_1{display: none;}
+	.row-custom-slider{display: none;}
+
+}
